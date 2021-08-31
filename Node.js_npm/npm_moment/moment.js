@@ -21,7 +21,6 @@ const startOF_hour = moment().startOf('hour');          // set to now, but with 
 const startOF_minute = moment().startOf('minute');      // set to now, but with 0 seconds and 0 milliseconds
 const startOF_second = moment().startOf('second');      // same as moment().milliseconds(0);
 
-
 console.log('――――――――――― start of() ――――――――――')
 console.log('startOF_year : ', startOF_year);
 console.log('startOF_month : ', startOF_month);
@@ -57,3 +56,6 @@ console.log('endOF_date : ', endOF_date);
 console.log('endOF_hour : ', endOF_hour);
 console.log('endOF_minute : ', endOF_minute);
 console.log('endOF_second : ', endOF_second);
+
+
+// TODO : momnet.add(Number, String) Study

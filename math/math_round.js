@@ -35,3 +35,8 @@ console.log(Math.round(20.5));  // 21
 console.log(Math.round(42));    // 42
 console.log(Math.round(-20.5)); // -20
 console.log(Math.round(-20.51)) // -21
+
+
+let number = 49071.58;
+let round_number = Math.round(number * 100) % 100;
+console.log('round_number : ', round_number);
