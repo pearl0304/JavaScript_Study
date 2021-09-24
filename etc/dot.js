@@ -19,8 +19,10 @@ function init() {
     tempMovingItem = {...movingItem};
     console.log('tempMovingItem_1 : ',tempMovingItem);
 
-    tempMovingItem.type='flower'
-    tempMovingItem.top=4;
+    tempMovingItem.type='★ ★ flower ★ ★'
+    tempMovingItem.direction=200;
+    tempMovingItem.top=400;
+    tempMovingItem.left=100;
     console.log('tempMovingItem_2', tempMovingItem);
 }
 
