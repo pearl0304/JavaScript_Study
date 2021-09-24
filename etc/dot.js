@@ -28,3 +28,10 @@ function init() {
 
 init();
 console.log('after : ',movingItem);
+
+/**
+ before :  { type: 'tree', direction: 0, top: 0, left: 0 }
+ tempMovingItem_1 :  { type: 'tree', direction: 0, top: 0, left: 0 }
+ tempMovingItem_2 { type: '★ ★ flower ★ ★', direction: 200, top: 400, left: 100 }
+ after :  { type: 'tree', direction: 0, top: 0, left: 0 }
+ */
