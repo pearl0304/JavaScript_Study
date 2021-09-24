@@ -17,9 +17,11 @@ console.log('before : ',movingItem);
 
 function init() {
     tempMovingItem = {...movingItem};
+    console.log('tempMovingItem_1 : ',tempMovingItem);
+
     tempMovingItem.type='flower'
     tempMovingItem.top=4;
-    console.log('tempMovingItem', tempMovingItem);
+    console.log('tempMovingItem_2', tempMovingItem);
 }
 
 init();
