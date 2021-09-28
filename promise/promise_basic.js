@@ -11,6 +11,8 @@
 
 */
 
+/* 예 : 숫자 n을 파라미터로 받아와서 다섯번에 걸쳐 1초마다 1씩 더해서 출력하는 작업 구현하기*/
+
 function increaseAndPrint(n){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
